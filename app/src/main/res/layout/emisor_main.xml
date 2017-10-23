@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/shareSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asunto" />
+
+    <EditText
+        android:id="@+id/shareMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje" />
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir" />
+
+</LinearLayout>
